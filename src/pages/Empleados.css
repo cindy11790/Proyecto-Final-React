@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/* body {
+body {
     font-family: "Euclid Circular A", "Poppins";
     background-color: #0ea5e9;
-} */
+    background: #e3f2fd ;
+
+}
 
 .cabecera{
     width: 100%;
     height: 100px;
-    background-color: #818e98;
+    background-color: #0072c6;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .logo img{
     width: 250px;
     height: 250px;
@@ -35,40 +38,33 @@ li:hover{
     background-color: blue;
 }
 
+/* --------------------------------------- */
 
+/* ------------------------------------- */
 h1 {
     text-align: center;
-    color: #0073e6;
+    color: black; 
 }
-
-.stats-container {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.stat-bar {
-    margin: 10px 0;
-}
-
-.stat-bar label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.progress {
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
     background-color: #0ea5e9;
-    border-radius: 5px;
-    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.progress-bar {
-    height: 20px;
-    border-radius: 5px;
-    background-color: #0073e6;
-    text-align: center;
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dfe6ed;
+}
+th {
+    background-color: #0072c6; 
     color: white;
-    font-size: 14px;
-    line-height: 20px;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #0ea5e9;
+}
+tr:hover {
+    background-color: #0ea5e9;
 }

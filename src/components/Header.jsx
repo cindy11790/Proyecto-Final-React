@@ -5,7 +5,7 @@ const Header = () => {
         <nav className="nav">
           <ul className="nav-list">
             <li className="nav-item">
-              <Link to="/" className="nav-link">
+              <Link to="/Home" className="nav-link">
                 Home
               </Link>
             </li>
@@ -29,6 +29,7 @@ const Header = () => {
               Estadisticas
               </Link>
             </li>
+            
           </ul>
         </nav>
       </header>

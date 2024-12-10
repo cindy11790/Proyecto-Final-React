@@ -5,11 +5,12 @@ import Estadisticas from "../pages/Estadisticas";
 import Historial from "../pages/Historial";
 import Calculo from "../pages/Calculo";
 import Registro from "../pages/Registro";
+import Empleados from "../pages/Empleados";
 
 
 export let router = [ //se puede exportar arriba o abajo con export default//
     {
-        path: '/',   //la ruta principal es el / solo, osea el home es la ruta principal//
+        path: '/Home',   //la ruta principal es el / solo, osea el home es la ruta principal//
         element: <Home />
     },
     {
@@ -35,6 +36,10 @@ export let router = [ //se puede exportar arriba o abajo con export default//
     {
         path: '/Registro',
         element: <Registro />
+    },
+    {
+        path: '/Empleados',
+        element: <Empleados />
     },
     
 ]

@@ -12,11 +12,11 @@ const Estadisticas = () => {
                 </div>
                 <nav class="menu">
                     <ul>
-                        <li><a href="../pages/home.html"><b>Home</b></a></li>
-                        <li><a href="../pages/calculo.html"><b>Liquidacion</b></a></li>
-                        <li><a href="../pages/registro.html"><b>Registro</b></a></li>
-                        <li><a href="../pages/historial.html"><b>Historial</b></a></li>
-                        <li><a href="../pages/estadisticas.html"><b>Estadisticas</b></a></li>
+                        <li><a href="../pages/Home"><b>Home</b></a></li>
+                        <li><a href="../pages/Calculo"><b>Liquidacion</b></a></li>
+                        <li><a href="../pages/Registro"><b>Registro</b></a></li>
+                        <li><a href="../pages/Historial"><b>Historial</b></a></li>
+                        <li><a href="../pages/Estadisticas"><b>Estadisticas</b></a></li>
                     </ul>
                 </nav>
             </header>

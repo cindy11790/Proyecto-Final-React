@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-/* body {
+html,
+body {
     font-family: "Euclid Circular A", "Poppins";
-    background-color: #0ea5e9;
-} */
+    background-color: #f4f4f9;
+    background: #e3f2fd ;
+
+
+}
 
 .cabecera{
     width: 100%;
     height: 100px;
-    background-color: #818e98;
+    background-color: #0072c6;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,40 +38,36 @@ li:hover{
     background-color: blue;
 }
 
-
 h1 {
     text-align: center;
-    color: #0073e6;
+    color: #003366; 
 }
-
-.stats-container {
-    max-width: 600px;
-    margin: 0 auto;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.stat-bar {
-    margin: 10px 0;
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dfe6ed;
 }
-
-.stat-bar label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.progress {
-    background-color: #0ea5e9;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.progress-bar {
-    height: 20px;
-    border-radius: 5px;
-    background-color: #0073e6;
-    text-align: center;
+th {
+    background-color: #0072c6; 
     color: white;
-    font-size: 14px;
-    line-height: 20px;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #e6f3ff; 
+}
+tr:hover {
+    background-color: #d0e4f7;  
+}
+.estadoC{
+    background: lightgreen;
+}
+.estadoP{
+    background: #fcf75e;
 }
